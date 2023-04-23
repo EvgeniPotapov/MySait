@@ -1,0 +1,167 @@
+body{
+    font-family: Handlee , cursive;
+    color: aliceblue;
+    background-image: url("1668612698_Tremend_Mellanox_Chi.jpg");
+   
+}
+h1{
+    cursor: help;
+    text-align: center;
+}
+
+.divBod{
+	margin: 0 auto;
+    width: 35%;
+    height: 70%;
+    background-image: url("1668612698_Tremend_Mellanox_Chi.jpg");
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+	
+}
+
+.groop{
+    margin: 10px;
+    padding: 5px;
+}
+
+input{
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    border-radius: 20px/20px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+
+#phone{
+
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    border-radius: 20px/20px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+
+}
+
+.but{
+
+    text-align: center;
+    margin: 10px;
+}
+
+
+.lebInp{
+
+    margin-top: 10px;
+    
+}
+
+.labelWs{
+   text-align: center;
+
+   
+}
+.popur{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.close{
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: auto;
+}
+.close :hover,
+.close :focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.myIn{
+	border: 20px;
+    height: 40px;
+    border-radius: 6px;
+    font-family: Handlee , cursive;	
+}
+input[type="submit"].myIn:hover{
+	
+	background-color: #c0c0c0;
+    
+}
+input[type="submit"].myIn:active{
+	
+	background-color:#939393;
+     
+}
+
+
+
+.popurHeader{
+    background-color: #5c82b8;
+    color: white;
+    display: flex;
+    padding: 2px 16px;
+}
+.popurBody{
+    padding: 2px 16px;
+}
+
+.popurFooter{
+    padding: 2px 16px;
+    background-color: #5c82b8;
+    color: white;
+}
+
+.popurContent{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    height: 55%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+textarea{
+    border-radius: 9px/9px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+    width: 80%;
+    height: 80px;
+}
+.voprosLabel{
+    color:   black;
+}
+#text{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.divVop{
+    margin-bottom: 50px ;
+}
+
+
+@keyframes animatetop{
+    form{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+

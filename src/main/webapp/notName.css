@@ -1,0 +1,16 @@
+body {font-family: Handlee , cursive;
+    color: aliceblue;
+    background-image: url("1668612698_Tremend_Mellanox_Chi.jpg");}
+   
+div.twoDiv {
+    height: 10em;
+    position: relative }
+div.twoDiv p {
+    margin: 0;
+    background: #aaaaff;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    color : black;}

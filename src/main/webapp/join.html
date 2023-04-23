@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/intel_104586.png" type="image/x-icon" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="joinCss.css">
+    <script src="css/js/core.js"></script>
+</head>
+
+<body>
+   <div class = divBod>
+    <form action="registration" method="POST">
+
+        <h1 title="Форма регистрации"> Регистрация </h1>
+
+        <div class="groop">
+
+            <label> Имя пользователя:</label>
+            <input name="firstName" type="text">
+
+        </div>
+
+        <div class="groop">
+            <label for=""> Пароль:</label>
+            <input name="password" type="password">
+        </div>
+
+        <div class="groop">
+            <label for=""> Повторите пароль:</label>
+            <input name="passwordTwo" type="password">
+        </div>
+
+        <div class="groop">
+            <label for=""> Email:</label>
+            <input type="email" name="email">
+        </div>
+
+        <div class="groop">
+            <label for=""> Номер телефона:</label>
+            <input name="phone" type="tel"  >
+        </div>
+
+        <div class="labelWs"><b>Выберете свой пол:</b><Br>
+
+            <label class="lebInp" for="">Мужской</label>
+            <input type="radio" name="gender" value="man"> <Br>
+            <label class="lebInp" for="">Женский</label>
+            <input type="radio" name="gender" value="woman"> <Br>
+
+        </div>
+        <div class="but">
+
+            <input class="myIn" type="submit" value="Отправить">
+
+        </div>
+         </form>
+         
+         <div class = "but">
+         <input id = 'myBtn' class="myIn" type="submit" value="Задать вопрос">
+         </div>
+         
+        
+    <div id="mupopur" class="popur">
+        <div class="popurContent">
+            <div class="popurHeader">
+                <h1>Задайте вопрос</h1>
+                <span class="close"> &times;</span>
+            </div>
+            <div class="popurBody">
+
+
+                <div class="divVop">
+                    <label class="voprosLabel">
+                        Your email:
+                        <input id="inputLabel" type="email" name="email">
+                    </label>
+                </div>
+                <div class="divMes">
+                    <label class="voprosLabel">
+                        Your message:
+                        <textarea id="text" name="message"></textarea>
+                    </label>
+                </div>
+
+                <button type="submit">Send</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+   
+    </div>
+    
+    
+
+
+
+    <script>
+
+        let popur = document.getElementById('mupopur'),
+            popurToogl = document.getElementById('myBtn'),
+            popurClose = document.querySelector('.close');
+
+        popurToogl.onclick = function () {
+            popur.style.display = "block";
+        };
+        popurClose.onclick = function () {
+            popur.style.display = "none";
+        }
+        window.onclick = function (e) {
+            if (e.target == popur) {
+                popur.style.display = "none";
+            }
+        }
+    </script>
+
+    <script src="https://unpkg.com/imask"></script>
+
+</body>
+
+</html>
