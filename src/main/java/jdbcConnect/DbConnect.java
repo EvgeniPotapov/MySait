@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class DbConnect {
 	private static final String URL ="jdbc:mysql://localhost:3306/mysait?ServerTimeZone= Europe/Moscow&useSSL=false";
 	private static final String USERNAME = "root";
-	private static final String PASSWORD = "Wrestqwertz369" ;
+	private static final String PASSWORD = "00000" ;
 	
 	Connection connect;
 	
